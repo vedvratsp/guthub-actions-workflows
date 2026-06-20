@@ -1,0 +1,27 @@
+# Workflow
+
+# Should Have Name
+name: Hello
+#on tells when the workflows work
+on:
+  workflow_dispatch: 
+# Jobs tell you what workshould do. we say job(s) because they can be multiple
+# Jobs is an object so it need indentation
+jobs:
+# 1st job (indentaion)
+  say-hello:
+  # creates an ephermal(last only for short time) container with ubuntu running
+   runs-on: ubuntu-latest
+   steps:
+   # that ephemeral container need instruction and we have run: where commmand is placed
+      - name: Say hello to everyone
+        run: echo "Hii Vedvrat
+# Should be inside the workflow
+
+# Steps
+
+# Should be inside the job
+
+# Actions
+
+# Should be inside the Steps
