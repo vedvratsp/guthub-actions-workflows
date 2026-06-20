@@ -15,7 +15,7 @@ jobs:
    steps:
    # that ephemeral container need instruction and we have run: where commmand is placed
       - name: Say hello to everyone
-        run: echo "Hii Vedvrat
+        run: echo "Hii Vedvrat"
 # Should be inside the workflow
 
 # Steps
